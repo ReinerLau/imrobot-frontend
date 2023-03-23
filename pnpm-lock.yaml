@@ -10,14 +10,19 @@ importers:
 
   apps/playground:
     specifiers:
+      '@imrobot/components': workspace:*
       '@vitejs/plugin-vue': ^4.1.0
       vite: ^4.2.0
       vue: ^3.2.47
     dependencies:
+      '@imrobot/components': link:../../packages/components
       vue: registry.npmmirror.com/vue/3.2.47
     devDependencies:
       '@vitejs/plugin-vue': registry.npmmirror.com/@vitejs/plugin-vue/4.1.0_vite@4.2.1+vue@3.2.47
       vite: registry.npmmirror.com/vite/4.2.1
+
+  packages/components:
+    specifiers: {}
 
 packages:
 

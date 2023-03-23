@@ -1,0 +1,6 @@
+{
+  "name": "@imrobot/components",
+  "version": "0.0.1",
+  "description": "all components",
+  "main": "index.js"
+}
