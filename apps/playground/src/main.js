@@ -1,8 +1,6 @@
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
-import { MyButton } from '@imrobot/components'
-
-console.log('test')
+import { MyButton } from '@imrobot/components';
 
 createApp(App).use(MyButton).mount('#app')
