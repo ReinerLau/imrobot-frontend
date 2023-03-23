@@ -17,6 +17,8 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@imrobot/components": "workspace:*"
+  },
   "packageManager": "pnpm@7.28.0"
 }

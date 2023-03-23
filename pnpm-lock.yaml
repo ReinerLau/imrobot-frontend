@@ -4,7 +4,10 @@ importers:
 
   .:
     specifiers:
+      '@imrobot/components': workspace:*
       turbo: latest
+    dependencies:
+      '@imrobot/components': link:packages/components
     devDependencies:
       turbo: registry.npmmirror.com/turbo/1.8.5
 

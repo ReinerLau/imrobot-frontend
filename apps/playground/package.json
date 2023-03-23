@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@imrobot/components": "workspace:*",
     "vue": "^3.2.47"
   },
   "devDependencies": {
