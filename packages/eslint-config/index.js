@@ -19,6 +19,14 @@ module.exports = defineConfig({
     sourceType: "module",
     parser: "@typescript-eslint/parser",
   },
+  overrides: [
+    {
+      files: ["*.js"],
+      rules: {
+        "@typescript-eslint/no-var-requires": "off",
+      },
+    },
+  ],
   rules: {
     "no-console": "error",
   },
