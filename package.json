@@ -9,11 +9,13 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "lint": "turbo run lint"
+    "lint": "turbo run lint",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "@imrobot/eslint-config": "workspace:^0.0.0",
     "eslint": "^8.36.0",
+    "prettier": "^2.8.6",
     "turbo": "latest"
   },
   "engines": {

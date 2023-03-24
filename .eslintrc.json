@@ -1,6 +1,4 @@
 {
-    "root": true,
-    "extends": [
-        "@imrobot/eslint-config"
-    ]
+  "root": true,
+  "extends": ["@imrobot/eslint-config"]
 }
