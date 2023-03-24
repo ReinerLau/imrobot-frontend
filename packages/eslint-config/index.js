@@ -10,11 +10,14 @@ module.exports = defineConfig({
     "eslint:recommended",
     "plugin:vue/vue3-recommended",
     "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended",
   ],
-  plugins: ["prettier", "vue"],
+  plugins: ["prettier", "vue", "@typescript-eslint"],
+  parser: "vue-eslint-parser",
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
+    parser: "@typescript-eslint/parser",
   },
   rules: {
     "no-console": "error",
