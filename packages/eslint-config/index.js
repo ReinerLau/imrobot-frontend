@@ -8,8 +8,8 @@ module.exports = defineConfig({
   },
   extends: [
     "eslint:recommended",
-    "plugin:prettier/recommended",
     "plugin:vue/vue3-recommended",
+    "plugin:prettier/recommended",
   ],
   plugins: ["prettier", "vue"],
   parserOptions: {
