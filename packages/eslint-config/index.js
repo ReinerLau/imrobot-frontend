@@ -6,8 +6,12 @@ module.exports = defineConfig({
     es2021: true,
     node: true,
   },
-  extends: ["eslint:recommended", "plugin:prettier/recommended"],
-  plugins: ["prettier"],
+  extends: [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:vue/vue3-recommended",
+  ],
+  plugins: ["prettier", "vue"],
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
